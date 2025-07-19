@@ -1,0 +1,25 @@
+#heading{
+    text-align: left;
+}
+#content{
+    align-items: center;       /* Center vertically */
+    justify-content: center;
+    height: max-content;
+    width:max-content;
+}
+.gameBox {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); /* 3 equal columns */
+  grid-template-rows: repeat(3, 100px);    /* 3 equal rows */
+  gap: 0; 
+  border: 3px solid silver;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    display: flex;             /* Flexbox layout */
+    align-items: center;       /* Center vertically */
+    justify-content: center;   /* Center horizontally */
+    font-size: 2rem;           /* Keeping text same size so that the button doesnt displace */
+}
